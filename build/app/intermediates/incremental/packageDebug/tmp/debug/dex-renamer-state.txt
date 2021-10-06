@@ -1,0 +1,4 @@
+#Wed Oct 06 22:04:53 CEST 2021
+base.0=/Users/us3r/Desktop/streamify/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

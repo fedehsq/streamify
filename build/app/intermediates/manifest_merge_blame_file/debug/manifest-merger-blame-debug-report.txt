@@ -1,0 +1,153 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.fedehsq.streamify"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+9        android:targetSdkVersion="30" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->/Users/us3r/Desktop/streamify/android/app/src/main/AndroidManifest.xml:3:5-67
+14-->/Users/us3r/Desktop/streamify/android/app/src/main/AndroidManifest.xml:3:22-64
+15    <uses-permission android:name="android.permission.BLUETOOTH" />
+15-->/Users/us3r/Desktop/streamify/android/app/src/debug/AndroidManifest.xml:9:5-67
+15-->/Users/us3r/Desktop/streamify/android/app/src/debug/AndroidManifest.xml:9:22-65
+16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+16-->/Users/us3r/Desktop/streamify/android/app/src/main/AndroidManifest.xml:4:5-79
+16-->/Users/us3r/Desktop/streamify/android/app/src/main/AndroidManifest.xml:4:22-76
+17
+18    <queries>
+18-->[:flutter_inappwebview] /Users/us3r/Desktop/streamify/build/flutter_inappwebview/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-11:15
+19        <intent>
+19-->[:flutter_inappwebview] /Users/us3r/Desktop/streamify/build/flutter_inappwebview/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-10:18
+20            <action android:name="android.support.customtabs.action.CustomTabsService" />
+20-->[:flutter_inappwebview] /Users/us3r/Desktop/streamify/build/flutter_inappwebview/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-90
+20-->[:flutter_inappwebview] /Users/us3r/Desktop/streamify/build/flutter_inappwebview/intermediates/library_manifest/debug/AndroidManifest.xml:9:21-87
+21        </intent>
+22    </queries>
+23
+24    <application
+24-->/Users/us3r/Desktop/streamify/android/app/src/main/AndroidManifest.xml:5:5-43:19
+25        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+25-->[androidx.core:core:1.3.0] /Users/us3r/.gradle/caches/transforms-2/files-2.1/a69d6fcd21e670073cd9cab171299398/core-1.3.0/AndroidManifest.xml:24:18-86
+26        android:debuggable="true"
+27        android:icon="@mipmap/ic_launcher"
+27-->/Users/us3r/Desktop/streamify/android/app/src/main/AndroidManifest.xml:8:9-43
+28        android:label="streamify"
+28-->/Users/us3r/Desktop/streamify/android/app/src/main/AndroidManifest.xml:7:9-34
+29        android:usesCleartextTraffic="true" >
+29-->/Users/us3r/Desktop/streamify/android/app/src/main/AndroidManifest.xml:6:9-44
+30        <activity
+30-->/Users/us3r/Desktop/streamify/android/app/src/main/AndroidManifest.xml:9:9-37:20
+31            android:name="com.fedehsq.streamify.MainActivity"
+31-->/Users/us3r/Desktop/streamify/android/app/src/main/AndroidManifest.xml:10:13-41
+32            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+32-->/Users/us3r/Desktop/streamify/android/app/src/main/AndroidManifest.xml:13:13-163
+33            android:hardwareAccelerated="true"
+33-->/Users/us3r/Desktop/streamify/android/app/src/main/AndroidManifest.xml:14:13-47
+34            android:launchMode="singleTop"
+34-->/Users/us3r/Desktop/streamify/android/app/src/main/AndroidManifest.xml:11:13-43
+35            android:theme="@style/LaunchTheme"
+35-->/Users/us3r/Desktop/streamify/android/app/src/main/AndroidManifest.xml:12:13-47
+36            android:windowSoftInputMode="adjustResize" >
+36-->/Users/us3r/Desktop/streamify/android/app/src/main/AndroidManifest.xml:15:13-55
+37
+38            <!--
+39                 Specifies an Android theme to apply to this Activity as soon as
+40                 the Android process has started. This theme is visible to the user
+41                 while the Flutter UI initializes. After that, this theme continues
+42                 to determine the Window background behind the Flutter UI.
+43            -->
+44            <meta-data
+44-->/Users/us3r/Desktop/streamify/android/app/src/main/AndroidManifest.xml:20:13-23:17
+45                android:name="io.flutter.embedding.android.NormalTheme"
+45-->/Users/us3r/Desktop/streamify/android/app/src/main/AndroidManifest.xml:21:15-70
+46                android:resource="@style/NormalTheme" />
+46-->/Users/us3r/Desktop/streamify/android/app/src/main/AndroidManifest.xml:22:15-52
+47            <!--
+48                 Displays an Android View that continues showing the launch screen
+49                 Drawable until Flutter paints its first frame, then this splash
+50                 screen fades out. A splash screen is useful to avoid any visual
+51                 gap between the end of Android's launch screen and the painting of
+52                 Flutter's first frame.
+53            -->
+54            <meta-data
+54-->/Users/us3r/Desktop/streamify/android/app/src/main/AndroidManifest.xml:29:13-32:17
+55                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+55-->/Users/us3r/Desktop/streamify/android/app/src/main/AndroidManifest.xml:30:15-79
+56                android:resource="@drawable/launch_background" />
+56-->/Users/us3r/Desktop/streamify/android/app/src/main/AndroidManifest.xml:31:15-61
+57
+58            <intent-filter>
+58-->/Users/us3r/Desktop/streamify/android/app/src/main/AndroidManifest.xml:33:13-36:29
+59                <action android:name="android.intent.action.MAIN" />
+59-->/Users/us3r/Desktop/streamify/android/app/src/main/AndroidManifest.xml:34:17-68
+59-->/Users/us3r/Desktop/streamify/android/app/src/main/AndroidManifest.xml:34:25-66
+60
+61                <category android:name="android.intent.category.LAUNCHER" />
+61-->/Users/us3r/Desktop/streamify/android/app/src/main/AndroidManifest.xml:35:17-76
+61-->/Users/us3r/Desktop/streamify/android/app/src/main/AndroidManifest.xml:35:27-74
+62            </intent-filter>
+63        </activity>
+64        <!--
+65 Don't delete the meta-data below.
+66             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+67        -->
+68        <meta-data
+68-->/Users/us3r/Desktop/streamify/android/app/src/main/AndroidManifest.xml:40:9-42:33
+69            android:name="flutterEmbedding"
+69-->/Users/us3r/Desktop/streamify/android/app/src/main/AndroidManifest.xml:41:13-44
+70            android:value="2" />
+70-->/Users/us3r/Desktop/streamify/android/app/src/main/AndroidManifest.xml:42:13-30
+71
+72        <activity
+72-->[:flutter_inappwebview] /Users/us3r/Desktop/streamify/build/flutter_inappwebview/intermediates/library_manifest/debug/AndroidManifest.xml:14:9-17:47
+73            android:name="com.pichillilorenzo.flutter_inappwebview.in_app_browser.InAppBrowserActivity"
+73-->[:flutter_inappwebview] /Users/us3r/Desktop/streamify/build/flutter_inappwebview/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-104
+74            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density"
+74-->[:flutter_inappwebview] /Users/us3r/Desktop/streamify/build/flutter_inappwebview/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-137
+75            android:theme="@style/AppTheme" />
+75-->[:flutter_inappwebview] /Users/us3r/Desktop/streamify/build/flutter_inappwebview/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-44
+76        <activity
+76-->[:flutter_inappwebview] /Users/us3r/Desktop/streamify/build/flutter_inappwebview/intermediates/library_manifest/debug/AndroidManifest.xml:18:9-20:55
+77            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivity"
+77-->[:flutter_inappwebview] /Users/us3r/Desktop/streamify/build/flutter_inappwebview/intermediates/library_manifest/debug/AndroidManifest.xml:19:13-112
+78            android:theme="@style/ThemeTransparent" />
+78-->[:flutter_inappwebview] /Users/us3r/Desktop/streamify/build/flutter_inappwebview/intermediates/library_manifest/debug/AndroidManifest.xml:20:13-52
+79
+80        <receiver android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ActionBroadcastReceiver" />
+80-->[:flutter_inappwebview] /Users/us3r/Desktop/streamify/build/flutter_inappwebview/intermediates/library_manifest/debug/AndroidManifest.xml:22:9-120
+80-->[:flutter_inappwebview] /Users/us3r/Desktop/streamify/build/flutter_inappwebview/intermediates/library_manifest/debug/AndroidManifest.xml:22:19-117
+81
+82        <meta-data
+82-->[:flutter_inappwebview] /Users/us3r/Desktop/streamify/build/flutter_inappwebview/intermediates/library_manifest/debug/AndroidManifest.xml:24:9-26:36
+83            android:name="io.flutter.embedded_views_preview"
+83-->[:flutter_inappwebview] /Users/us3r/Desktop/streamify/build/flutter_inappwebview/intermediates/library_manifest/debug/AndroidManifest.xml:25:13-61
+84            android:value="true" />
+84-->[:flutter_inappwebview] /Users/us3r/Desktop/streamify/build/flutter_inappwebview/intermediates/library_manifest/debug/AndroidManifest.xml:26:13-33
+85
+86        <provider
+86-->[:flutter_webview_plugin] /Users/us3r/Desktop/streamify/build/flutter_webview_plugin/intermediates/library_manifest/debug/AndroidManifest.xml:9:9-18:20
+87            android:name="androidx.core.content.FileProvider"
+87-->[:flutter_webview_plugin] /Users/us3r/Desktop/streamify/build/flutter_webview_plugin/intermediates/library_manifest/debug/AndroidManifest.xml:10:13-62
+88            android:authorities="com.fedehsq.streamify.fileprovider"
+88-->[:flutter_webview_plugin] /Users/us3r/Desktop/streamify/build/flutter_webview_plugin/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-64
+89            android:exported="false"
+89-->[:flutter_webview_plugin] /Users/us3r/Desktop/streamify/build/flutter_webview_plugin/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-37
+90            android:grantUriPermissions="true" >
+90-->[:flutter_webview_plugin] /Users/us3r/Desktop/streamify/build/flutter_webview_plugin/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-47
+91            <meta-data
+91-->[:flutter_webview_plugin] /Users/us3r/Desktop/streamify/build/flutter_webview_plugin/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-17:53
+92                android:name="android.support.FILE_PROVIDER_PATHS"
+92-->[:flutter_webview_plugin] /Users/us3r/Desktop/streamify/build/flutter_webview_plugin/intermediates/library_manifest/debug/AndroidManifest.xml:16:17-67
+93                android:resource="@xml/filepaths" />
+93-->[:flutter_webview_plugin] /Users/us3r/Desktop/streamify/build/flutter_webview_plugin/intermediates/library_manifest/debug/AndroidManifest.xml:17:17-50
+94        </provider>
+95    </application>
+96
+97</manifest>

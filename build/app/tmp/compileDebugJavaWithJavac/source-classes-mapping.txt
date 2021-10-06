@@ -1,0 +1,4 @@
+io/flutter/plugins/GeneratedPluginRegistrant.java
+ io.flutter.plugins.GeneratedPluginRegistrant
+com/fedehsq/streamify/BuildConfig.java
+ com.fedehsq.streamify.BuildConfig
