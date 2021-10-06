@@ -12,9 +12,9 @@ Flutter application to shows everything you want in streaming.
 - View details of a movie.
 
 ## Screenshot
-![drawing](https://github.com/fedehsq/streamify/blob/master/screen/1.png)
-![drawing](https://github.com/fedehsq/streamify/blob/master/screen/2.png)
-![drawing](https://github.com/fedehsq/streamify/blob/master/screen/3.png)
-![drawing](https://github.com/fedehsq/streamify/blob/master/screen/4.png)
-![drawing](https://github.com/fedehsq/streamify/blob/master/screen/5.png)
-![drawing](https://github.com/fedehsq/streamify/blob/master/screen/6.png)
+![drawing](https://github.com/fedehsq/streamify/blob/master/images/1.png)
+![drawing](https://github.com/fedehsq/streamify/blob/master/images/2.png)
+![drawing](https://github.com/fedehsq/streamify/blob/master/images/3.png)
+![drawing](https://github.com/fedehsq/streamify/blob/master/images/4.png)
+![drawing](https://github.com/fedehsq/streamify/blob/master/images/5.png)
+![drawing](https://github.com/fedehsq/streamify/blob/master/images/6.png)
