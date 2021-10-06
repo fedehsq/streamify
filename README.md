@@ -13,8 +13,5 @@ Flutter application to shows everything you want in streaming.
 
 ## Screenshot
 ![drawing](https://github.com/fedehsq/streamify/blob/master/images/1.png)
-![drawing](https://github.com/fedehsq/streamify/blob/master/images/2.png)
-![drawing](https://github.com/fedehsq/streamify/blob/master/images/3.png)
 ![drawing](https://github.com/fedehsq/streamify/blob/master/images/4.png)
-![drawing](https://github.com/fedehsq/streamify/blob/master/images/5.png)
 ![drawing](https://github.com/fedehsq/streamify/blob/master/images/6.png)
