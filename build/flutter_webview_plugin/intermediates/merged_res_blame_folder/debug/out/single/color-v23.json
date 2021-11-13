@@ -1,38 +1,38 @@
 [
     {
-        "merged": "/Users/us3r/Desktop/streamify/build/flutter_webview_plugin/intermediates/res/merged/debug/color-v23/abc_tint_btn_checkable.xml",
-        "source": "/Users/us3r/.gradle/caches/transforms-2/files-2.1/f419bf2442c9ba50831eeba89000c9a9/appcompat-1.1.0/res/color-v23/abc_tint_btn_checkable.xml"
+        "merged": "/Users/federicobernacca/Desktop/streamify/build/flutter_webview_plugin/intermediates/res/merged/debug/color-v23/abc_tint_default.xml",
+        "source": "/Users/federicobernacca/.gradle/caches/transforms-2/files-2.1/f419bf2442c9ba50831eeba89000c9a9/appcompat-1.1.0/res/color-v23/abc_tint_default.xml"
     },
     {
-        "merged": "/Users/us3r/Desktop/streamify/build/flutter_webview_plugin/intermediates/res/merged/debug/color-v23/abc_tint_switch_track.xml",
-        "source": "/Users/us3r/.gradle/caches/transforms-2/files-2.1/f419bf2442c9ba50831eeba89000c9a9/appcompat-1.1.0/res/color-v23/abc_tint_switch_track.xml"
+        "merged": "/Users/federicobernacca/Desktop/streamify/build/flutter_webview_plugin/intermediates/res/merged/debug/color-v23/abc_tint_spinner.xml",
+        "source": "/Users/federicobernacca/.gradle/caches/transforms-2/files-2.1/f419bf2442c9ba50831eeba89000c9a9/appcompat-1.1.0/res/color-v23/abc_tint_spinner.xml"
     },
     {
-        "merged": "/Users/us3r/Desktop/streamify/build/flutter_webview_plugin/intermediates/res/merged/debug/color-v23/abc_color_highlight_material.xml",
-        "source": "/Users/us3r/.gradle/caches/transforms-2/files-2.1/f419bf2442c9ba50831eeba89000c9a9/appcompat-1.1.0/res/color-v23/abc_color_highlight_material.xml"
+        "merged": "/Users/federicobernacca/Desktop/streamify/build/flutter_webview_plugin/intermediates/res/merged/debug/color-v23/abc_tint_switch_track.xml",
+        "source": "/Users/federicobernacca/.gradle/caches/transforms-2/files-2.1/f419bf2442c9ba50831eeba89000c9a9/appcompat-1.1.0/res/color-v23/abc_tint_switch_track.xml"
     },
     {
-        "merged": "/Users/us3r/Desktop/streamify/build/flutter_webview_plugin/intermediates/res/merged/debug/color-v23/abc_tint_seek_thumb.xml",
-        "source": "/Users/us3r/.gradle/caches/transforms-2/files-2.1/f419bf2442c9ba50831eeba89000c9a9/appcompat-1.1.0/res/color-v23/abc_tint_seek_thumb.xml"
+        "merged": "/Users/federicobernacca/Desktop/streamify/build/flutter_webview_plugin/intermediates/res/merged/debug/color-v23/abc_btn_colored_text_material.xml",
+        "source": "/Users/federicobernacca/.gradle/caches/transforms-2/files-2.1/f419bf2442c9ba50831eeba89000c9a9/appcompat-1.1.0/res/color-v23/abc_btn_colored_text_material.xml"
     },
     {
-        "merged": "/Users/us3r/Desktop/streamify/build/flutter_webview_plugin/intermediates/res/merged/debug/color-v23/abc_btn_colored_text_material.xml",
-        "source": "/Users/us3r/.gradle/caches/transforms-2/files-2.1/f419bf2442c9ba50831eeba89000c9a9/appcompat-1.1.0/res/color-v23/abc_btn_colored_text_material.xml"
+        "merged": "/Users/federicobernacca/Desktop/streamify/build/flutter_webview_plugin/intermediates/res/merged/debug/color-v23/abc_tint_btn_checkable.xml",
+        "source": "/Users/federicobernacca/.gradle/caches/transforms-2/files-2.1/f419bf2442c9ba50831eeba89000c9a9/appcompat-1.1.0/res/color-v23/abc_tint_btn_checkable.xml"
     },
     {
-        "merged": "/Users/us3r/Desktop/streamify/build/flutter_webview_plugin/intermediates/res/merged/debug/color-v23/abc_btn_colored_borderless_text_material.xml",
-        "source": "/Users/us3r/.gradle/caches/transforms-2/files-2.1/f419bf2442c9ba50831eeba89000c9a9/appcompat-1.1.0/res/color-v23/abc_btn_colored_borderless_text_material.xml"
+        "merged": "/Users/federicobernacca/Desktop/streamify/build/flutter_webview_plugin/intermediates/res/merged/debug/color-v23/abc_color_highlight_material.xml",
+        "source": "/Users/federicobernacca/.gradle/caches/transforms-2/files-2.1/f419bf2442c9ba50831eeba89000c9a9/appcompat-1.1.0/res/color-v23/abc_color_highlight_material.xml"
     },
     {
-        "merged": "/Users/us3r/Desktop/streamify/build/flutter_webview_plugin/intermediates/res/merged/debug/color-v23/abc_tint_spinner.xml",
-        "source": "/Users/us3r/.gradle/caches/transforms-2/files-2.1/f419bf2442c9ba50831eeba89000c9a9/appcompat-1.1.0/res/color-v23/abc_tint_spinner.xml"
+        "merged": "/Users/federicobernacca/Desktop/streamify/build/flutter_webview_plugin/intermediates/res/merged/debug/color-v23/abc_tint_edittext.xml",
+        "source": "/Users/federicobernacca/.gradle/caches/transforms-2/files-2.1/f419bf2442c9ba50831eeba89000c9a9/appcompat-1.1.0/res/color-v23/abc_tint_edittext.xml"
     },
     {
-        "merged": "/Users/us3r/Desktop/streamify/build/flutter_webview_plugin/intermediates/res/merged/debug/color-v23/abc_tint_edittext.xml",
-        "source": "/Users/us3r/.gradle/caches/transforms-2/files-2.1/f419bf2442c9ba50831eeba89000c9a9/appcompat-1.1.0/res/color-v23/abc_tint_edittext.xml"
+        "merged": "/Users/federicobernacca/Desktop/streamify/build/flutter_webview_plugin/intermediates/res/merged/debug/color-v23/abc_tint_seek_thumb.xml",
+        "source": "/Users/federicobernacca/.gradle/caches/transforms-2/files-2.1/f419bf2442c9ba50831eeba89000c9a9/appcompat-1.1.0/res/color-v23/abc_tint_seek_thumb.xml"
     },
     {
-        "merged": "/Users/us3r/Desktop/streamify/build/flutter_webview_plugin/intermediates/res/merged/debug/color-v23/abc_tint_default.xml",
-        "source": "/Users/us3r/.gradle/caches/transforms-2/files-2.1/f419bf2442c9ba50831eeba89000c9a9/appcompat-1.1.0/res/color-v23/abc_tint_default.xml"
+        "merged": "/Users/federicobernacca/Desktop/streamify/build/flutter_webview_plugin/intermediates/res/merged/debug/color-v23/abc_btn_colored_borderless_text_material.xml",
+        "source": "/Users/federicobernacca/.gradle/caches/transforms-2/files-2.1/f419bf2442c9ba50831eeba89000c9a9/appcompat-1.1.0/res/color-v23/abc_btn_colored_borderless_text_material.xml"
     }
 ]

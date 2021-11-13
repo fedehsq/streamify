@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:streamify/HomePage.dart';
 import 'package:streamify/SourceSearch.dart';
 
 void main() {

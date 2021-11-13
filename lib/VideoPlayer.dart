@@ -65,6 +65,7 @@ class _VideoPlayerState extends State<VideoPlayer> {
 
   /// Get the video file and then initialize the video player on that file.
   Future<void> _initializePlayer() async {
+    print(widget.film.fileVideoUri);
     try {
       var filmFileUri = await _getVideo(widget.film.fileVideoUri);
       if (filmFileUri.isEmpty) {

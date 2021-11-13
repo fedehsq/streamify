@@ -601,6 +601,7 @@ class _HomePageState extends State<HomePage> with UriHelper, CommonWidget {
         _favouritesFilms.add(film);
       }
       if (film.arrivedMin != 0) {
+        film.fileVideoUri = film.episodeArrived;
         _startedFilms.add(film);
       }
     }

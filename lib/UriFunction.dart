@@ -188,10 +188,10 @@ mixin UriHelper {
       case "gds":
         switch (film.category) {
           case "Film" :
-            await _downloadGenioFilmDescription(film);
+            await _downloadFilmDescription(film);
             break;
           case "Serie Tv" :
-            await _downloadGenioTvSeriesDescription(film);
+            await _downloadTvSeriesDescription(film);
             break;
         }
     }
@@ -454,7 +454,7 @@ mixin UriHelper {
    */
 
   /// Download the description of the film from the website.
-  Future<void> _downloadGenioFilmDescription(Film film) async {
+  Future<void> _downloadFilmDescription(Film film) async {
     final uriFilmDescription = await get(Uri.parse(film.descriptionUri));
     if (uriFilmDescription.statusCode == 200) {
       // reference to webpage
@@ -502,7 +502,7 @@ mixin UriHelper {
   }
 
   /// Download the description of the tv series from the website.
-  Future<void> _downloadGenioTvSeriesDescription(Film film) async {
+  Future<void> _downloadTvSeriesDescription(Film film) async {
     final uriFilmDescription = await get(Uri.parse(film.descriptionUri));
     if (uriFilmDescription.statusCode == 200) {
       var document = parse(uriFilmDescription.body.toString());
