@@ -345,10 +345,10 @@ library {
   maven_library {
     groupId: "io.flutter"
     artifactId: "flutter_embedding_release"
-    version: "1.0.0-6ac856380fa4f66469552ce986edf59f65f7cd68"
+    version: "1.0.0-241c87ad800beeab545ab867354d4683d5bfb6ce"
   }
   digests {
-    sha256: "\305\337\017\b\256U\'\343\v\233\360\327\221oK \244\277\237g\000\256eZ\231X\245\027\341\274\213\337"
+    sha256: "\216\026\030\022\230\341\254\254\327\177\026\236<\t[o\034\213\231\313\355\235*\245\026\217\177r\211\306\003q"
   }
 }
 library {
@@ -485,35 +485,35 @@ library {
   maven_library {
     groupId: "io.flutter"
     artifactId: "armeabi_v7a_release"
-    version: "1.0.0-6ac856380fa4f66469552ce986edf59f65f7cd68"
+    version: "1.0.0-241c87ad800beeab545ab867354d4683d5bfb6ce"
   }
   digests {
-    sha256: "\220&\310#\021\032\204\375\002`\325\310Lt\215\036\t)X\317\213\342\344\021u\253#y\r\330\327\354"
+    sha256: "\200\264e2\237,\305\330\316y\256d\301\362\364\004\021z\217\371B0\271\256\362\303\243\210\377\255\306}"
   }
 }
 library {
   maven_library {
     groupId: "io.flutter"
     artifactId: "arm64_v8a_release"
-    version: "1.0.0-6ac856380fa4f66469552ce986edf59f65f7cd68"
+    version: "1.0.0-241c87ad800beeab545ab867354d4683d5bfb6ce"
   }
   digests {
-    sha256: "\200\243\224\354\202\3379MC\n\365%\002\226\201\240\254GI\304\306ZC\313\225\036^o\033\177!\303"
+    sha256: "\240c\357~=8~c\372\256gB\325\323\321\251\321\213c!\343\220\366\251\316\205\345[<]\r\325"
   }
 }
 library {
   maven_library {
     groupId: "io.flutter"
     artifactId: "x86_64_release"
-    version: "1.0.0-6ac856380fa4f66469552ce986edf59f65f7cd68"
+    version: "1.0.0-241c87ad800beeab545ab867354d4683d5bfb6ce"
   }
   digests {
-    sha256: "2\267#\324\201\372\277#\261K\332{#w\027\v\370\250$\276\361\346Qn\224V\005\335\245\033\re"
+    sha256: "2<\277\242\240\330\217R\324\234R\255\b\030u\025\254\241\343\323`~*\323\275\356\032\261b\316\376S"
   }
 }
 library {
   digests {
-    sha256: "\326-N\006\341&b,q\3564+)\327\220\335\262\371k\306\177e\v\020R\004+\365\206*\335\226"
+    sha256: "\210F\237\204k\346\333\017\265]\326\324\212\243\365\177]\017\315\206\321\277I`[\'S\206\335\277w\356"
   }
 }
 library_dependencies {

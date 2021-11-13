@@ -1,18 +1,18 @@
 [
     {
-        "merged": "/Users/us3r/Desktop/streamify/build/webview_flutter/intermediates/res/merged/release/layout-v21/notification_action.xml",
-        "source": "/Users/us3r/.gradle/caches/transforms-2/files-2.1/2e94107f30f39be366a17347c2bf100b/core-1.1.0/res/layout-v21/notification_action.xml"
+        "merged": "/Users/federicobernacca/Desktop/streamify/build/webview_flutter/intermediates/res/merged/release/layout-v21/notification_action.xml",
+        "source": "/Users/federicobernacca/.gradle/caches/transforms-2/files-2.1/2e94107f30f39be366a17347c2bf100b/core-1.1.0/res/layout-v21/notification_action.xml"
     },
     {
-        "merged": "/Users/us3r/Desktop/streamify/build/webview_flutter/intermediates/res/merged/release/layout-v21/notification_template_icon_group.xml",
-        "source": "/Users/us3r/.gradle/caches/transforms-2/files-2.1/2e94107f30f39be366a17347c2bf100b/core-1.1.0/res/layout-v21/notification_template_icon_group.xml"
+        "merged": "/Users/federicobernacca/Desktop/streamify/build/webview_flutter/intermediates/res/merged/release/layout-v21/notification_template_custom_big.xml",
+        "source": "/Users/federicobernacca/.gradle/caches/transforms-2/files-2.1/2e94107f30f39be366a17347c2bf100b/core-1.1.0/res/layout-v21/notification_template_custom_big.xml"
     },
     {
-        "merged": "/Users/us3r/Desktop/streamify/build/webview_flutter/intermediates/res/merged/release/layout-v21/notification_action_tombstone.xml",
-        "source": "/Users/us3r/.gradle/caches/transforms-2/files-2.1/2e94107f30f39be366a17347c2bf100b/core-1.1.0/res/layout-v21/notification_action_tombstone.xml"
+        "merged": "/Users/federicobernacca/Desktop/streamify/build/webview_flutter/intermediates/res/merged/release/layout-v21/notification_template_icon_group.xml",
+        "source": "/Users/federicobernacca/.gradle/caches/transforms-2/files-2.1/2e94107f30f39be366a17347c2bf100b/core-1.1.0/res/layout-v21/notification_template_icon_group.xml"
     },
     {
-        "merged": "/Users/us3r/Desktop/streamify/build/webview_flutter/intermediates/res/merged/release/layout-v21/notification_template_custom_big.xml",
-        "source": "/Users/us3r/.gradle/caches/transforms-2/files-2.1/2e94107f30f39be366a17347c2bf100b/core-1.1.0/res/layout-v21/notification_template_custom_big.xml"
+        "merged": "/Users/federicobernacca/Desktop/streamify/build/webview_flutter/intermediates/res/merged/release/layout-v21/notification_action_tombstone.xml",
+        "source": "/Users/federicobernacca/.gradle/caches/transforms-2/files-2.1/2e94107f30f39be366a17347c2bf100b/core-1.1.0/res/layout-v21/notification_action_tombstone.xml"
     }
 ]

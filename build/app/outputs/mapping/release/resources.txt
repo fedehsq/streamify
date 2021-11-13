@@ -256,6 +256,7 @@ Referenced Strings:
   Amazon
   Ambient
   Android
+  AndroidKeyProcessor
   Anime
   AppCompatDelegate
   AppCompatResources
@@ -512,7 +513,6 @@ Referenced Strings:
   E:
   EBM
   EC
-  EDGE_TO_EDGE
   EE
   EG
   EGL_EXT_protected_content
@@ -658,7 +658,6 @@ Referenced Strings:
   Game
   Gangsta
   Garage
-  GeneratedPluginRegistrant
   GeneratedPluginsRegister
   GiONEE_CBL7513
   GiONEE_GBL7319
@@ -689,7 +688,6 @@ Referenced Strings:
   HAS_ENABLED_STATE
   HAS_IMPLICIT_SCROLLING
   HAS_TOGGLED_STATE
-  HC_PLATFORM_VIEW
   HEAD
   HEADERS
   HEAVY_IMPACT
@@ -745,8 +743,6 @@ Referenced Strings:
   IL
   IM
   IMAGE
-  IMMERSIVE
-  IMMERSIVE_STICKY
   IN
   INADEQUATE_SECURITY
   INCREASE
@@ -850,7 +846,6 @@ Referenced Strings:
   KY
   KZ
   KeyEventChannel
-  KeyboardManager
   Krautrock
   L120
   L123
@@ -872,13 +867,11 @@ Referenced Strings:
   LANDSCAPE_RIGHT
   LB
   LC
-  LEAN_BACK
   LEFT
   LI
   LIGHT
   LIGHT_IMPACT
   LK
-  LOCALE
   LONG_PRESS
   LR
   LS
@@ -1102,6 +1095,7 @@ Referenced Strings:
   PK
   PL
   PLAIN_TEXT
+  PLATFORM_VIEW
   PLE
   PM
   POPUP
@@ -1263,7 +1257,6 @@ Referenced Strings:
   SO
   SOAPAction
   SPDY_3
-  SPELLOUT
   SR
   SS
   SSL
@@ -1370,21 +1363,14 @@ Referenced Strings:
   SystemChannel
   SystemChrome.restoreSystemUIOverlays
   SystemChrome.setApplicationSwitcherDe...
-  SystemChrome.setEnabledSystemUIMode
   SystemChrome.setEnabledSystemUIOverlays
   SystemChrome.setPreferredOrientations
-  SystemChrome.setSystemUIChangeListener
   SystemChrome.setSystemUIOverlayStyle
-  SystemChrome.systemUIChange
   SystemID
   SystemNavigator.pop
   SystemSound.play
   SystemSoundType.alert
   SystemSoundType.click
-  SystemUiMode.edgeToEdge
-  SystemUiMode.immersive
-  SystemUiMode.immersiveSticky
-  SystemUiMode.leanBack
   SystemUiOverlay.bottom
   SystemUiOverlay.top
   T:
@@ -1589,7 +1575,6 @@ Referenced Strings:
   TextInputType.emailAddress
   TextInputType.multiline
   TextInputType.name
-  TextInputType.none
   TextInputType.number
   TextInputType.phone
   TextInputType.text
@@ -1649,7 +1634,6 @@ Referenced Strings:
   V:
   VALUE
   VC
-  VD_PLATFORM_VIEW
   VE
   VG
   VI
@@ -1867,7 +1851,6 @@ Referenced Strings:
   android.support.customtabs.extra.TITL...
   android.support.customtabs.extra.TOOL...
   android.support.customtabs.extra.TOOL...
-  android.type.verbatim
   android.util.LongArray
   android.view.
   android.view.View
@@ -2386,7 +2369,6 @@ Referenced Strings:
   emailAddress
   emergency
   enable
-  enableIMEPersonalizedLearning
   enableSuggestions
   enableUrlBarHiding
   enable_state_restoration
@@ -3163,7 +3145,6 @@ Referenced Strings:
   pink
   plainCodePoint
   platformBrightness
-  platformViewId
   player
   playresx
   playresy
@@ -3513,12 +3494,9 @@ Referenced Strings:
   supportZoom
   supports
   surface
-  synchronizeToNativeViewHierarchy
   systemNavigationBarColor
-  systemNavigationBarContrastEnforced
   systemNavigationBarDividerColor
   systemNavigationBarIconBrightness
-  systemStatusBarContrastEnforced
   t
   t0
   taido_row
@@ -3657,7 +3635,6 @@ Referenced Strings:
   userdebug
   username
   usesHybridComposition
-  usesVirtualDisplay
   v
   v2
   validNotAfterDate

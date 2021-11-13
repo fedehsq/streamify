@@ -2058,8 +2058,6 @@ com.google.android.exoplayer2.extractor.FlacMetadataReader:
     private static final int STREAM_MARKER
     private static final int SYNC_CODE
     private static final int SEEK_POINT_SIZE
-io.flutter.util.ViewUtils:
-    public void <init>()
 com.google.android.exoplayer2.drm.UnsupportedDrmException$Reason
 com.google.common.util.concurrent.ServiceManager$ServiceListener
 androidx.core.net.ConnectivityManagerCompat
@@ -2735,8 +2733,6 @@ com.google.android.exoplayer2.drm.ExoMediaDrm:
     public static final int KEY_TYPE_OFFLINE
     public static final int KEY_TYPE_RELEASE
 androidx.vectordrawable.graphics.drawable.Animatable2Compat
-io.flutter.embedding.engine.renderer.FlutterRenderer$ViewportMetrics:
-    public static final int unsetValue
 okhttp3.internal.cache.DiskLruCache$Editor
 com.google.android.exoplayer2.offline.DownloadService$ForegroundNotificationUpdater
 com.google.common.eventbus.SubscriberRegistry
@@ -3223,6 +3219,8 @@ androidx.core.app.AppOpsManagerCompat:
 androidx.core.app.Person$Builder
 okhttp3.internal.ws.RealWebSocket$1
 io.flutter.plugins.videoplayer.R$attr
+io.flutter.embedding.android.AndroidKeyProcessor$EventResponder:
+    private static final long MAX_PENDING_EVENTS
 androidx.core.os.ParcelableCompat$ParcelableCompatCreatorHoneycombMR2
 com.google.common.io.Files
 com.google.common.hash.Crc32cHashFunction
@@ -3417,7 +3415,6 @@ com.google.android.exoplayer2.Timeline:
 io.flutter.FlutterInjector$Builder:
     public io.flutter.FlutterInjector$Builder setFlutterLoader(io.flutter.embedding.engine.loader.FlutterLoader)
     public io.flutter.FlutterInjector$Builder setDeferredComponentManager(io.flutter.embedding.engine.deferredcomponents.DeferredComponentManager)
-    public io.flutter.FlutterInjector$Builder setFlutterJNIFactory(io.flutter.embedding.engine.FlutterJNI$Factory)
 kotlin.sequences.FlatteningSequence$iterator$1
 kotlin.collections.ArraysKt___ArraysJvmKt$asList$3
 com.google.common.primitives.UnsignedBytes$LexicographicalComparatorHolder$PureJavaComparator
@@ -3712,8 +3709,6 @@ io.flutter.embedding.engine.FlutterShellArgs:
     public static final java.lang.String ARG_SKIA_DETERMINISTIC_RENDERING
     public static final java.lang.String ARG_KEY_TRACE_SKIA
     public static final java.lang.String ARG_TRACE_SKIA
-    public static final java.lang.String ARG_KEY_TRACE_SKIA_ALLOWLIST
-    public static final java.lang.String ARG_TRACE_SKIA_ALLOWLIST
     public static final java.lang.String ARG_KEY_TRACE_SYSTRACE
     public static final java.lang.String ARG_TRACE_SYSTRACE
     public static final java.lang.String ARG_KEY_DUMP_SHADER_SKP_ON_SHADER_COMPILATION
@@ -5150,7 +5145,7 @@ org.junit.matchers.JUnitMatchers
 io.flutter.plugin.editing.TextInputPlugin:
     android.text.Editable getEditable()
     io.flutter.plugin.editing.ImeSyncDeferringInsetsCallback getImeSyncCallback()
-    public android.view.inputmethod.InputConnection getLastInputConnection()
+    public io.flutter.embedding.android.AndroidKeyProcessor getKeyEventProcessor()
     private static final java.lang.String TAG
 com.google.common.cache.LocalCache$StrongAccessWriteEntry
 org.junit.experimental.max.MaxCore$1
@@ -7356,8 +7351,6 @@ okhttp3.internal.Internal:
     public static void initializeInstanceForTests()
     public abstract okhttp3.Call newWebSocketCall(okhttp3.OkHttpClient,okhttp3.Request)
 kotlin.collections.AbstractMutableMap
-io.flutter.embedding.android.KeyboardManager:
-    private static final java.lang.String TAG
 kotlin.ranges.ClosedFloatingPointRange$DefaultImpls
 org.junit.runner.notification.RunNotifier$SafeNotifier
 org.hamcrest.TypeSafeDiagnosingMatcher
@@ -7445,8 +7438,6 @@ androidx.vectordrawable.graphics.drawable.AndroidResources:
     public static final int FAST_OUT_LINEAR_IN
     public static final int FAST_OUT_SLOW_IN
     public static final int LINEAR_OUT_SLOW_IN
-io.flutter.embedding.android.KeyChannelResponder:
-    private static final java.lang.String TAG
 okhttp3.Headers:
     public static okhttp3.Headers of(java.util.Map)
     public java.util.Date getDate(java.lang.String)
@@ -7885,6 +7876,7 @@ io.flutter.view.FlutterView:
     public void <init>(android.content.Context)
     public void <init>(android.content.Context,android.util.AttributeSet)
     public void <init>(android.content.Context,android.util.AttributeSet,io.flutter.view.FlutterNativeView)
+    private static android.app.Activity getActivity(android.content.Context)
     private void preRun()
     private void postRun()
     static synthetic void access$000(io.flutter.view.FlutterView,boolean,boolean)
@@ -9860,9 +9852,9 @@ androidx.appcompat.widget.AppCompatCheckedTextView:
 androidx.viewpager.widget.ViewPager$ViewPositionComparator
 com.google.android.exoplayer2.util.RepeatModeUtil$RepeatToggleModes
 androidx.customview.widget.ExploreByTouchHelper
-io.flutter.embedding.engine.systemchannels.PlatformViewsChannel:
-    private static final java.lang.String TAG
 io.flutter.embedding.engine.systemchannels.PlatformChannel:
+    private static final java.lang.String TAG
+io.flutter.embedding.engine.systemchannels.PlatformViewsChannel:
     private static final java.lang.String TAG
 com.google.common.collect.Multisets$FilteredMultiset$1
 androidx.core.graphics.drawable.WrappedDrawableApi21:
@@ -10334,7 +10326,6 @@ io.flutter.plugin.common.StandardMessageCodec:
     private static final byte DOUBLE_ARRAY
     private static final byte LIST
     private static final byte MAP
-    private static final byte FLOAT_ARRAY
 kotlin.experimental.ExperimentalTypeInference
 com.google.common.util.concurrent.AbstractService$IsStoppableGuard
 com.google.android.exoplayer2.SimpleExoPlayer$FrameMetadataListener:
@@ -11351,6 +11342,8 @@ com.google.common.reflect.TypeToken$TypeCollector$ForwardingTypeCollector
 com.google.common.base.Splitter$5
 com.google.common.util.concurrent.CycleDetectingLockFactory$1
 kotlin.reflect.KTypeProjection$Companion
+io.flutter.embedding.android.AndroidKeyProcessor:
+    private static final java.lang.String TAG
 com.google.android.exoplayer2.upstream.HttpDataSource$InvalidResponseCodeException:
     public void <init>(int,java.util.Map,com.google.android.exoplayer2.upstream.DataSpec)
     public void <init>(int,java.lang.String,java.util.Map,com.google.android.exoplayer2.upstream.DataSpec)
@@ -11461,8 +11454,6 @@ io.flutter.embedding.android.FlutterView:
     public void <init>(android.content.Context,android.util.AttributeSet)
     public void <init>(android.content.Context,io.flutter.embedding.android.FlutterView$RenderMode,io.flutter.embedding.android.FlutterView$TransparencyMode)
     private void <init>(android.content.Context,android.util.AttributeSet,io.flutter.embedding.android.FlutterImageView)
-    private android.view.View findViewByAccessibilityIdRootedAtCurrentView(int,android.view.View)
-    public android.view.View findViewByAccessibilityIdTraversal(int)
     private static final java.lang.String TAG
 org.junit.internal.RealSystem
 com.google.common.reflect.package-info
@@ -14482,7 +14473,6 @@ io.flutter.embedding.android.FlutterActivityAndFragmentDelegate:
     private static final java.lang.String TAG
     private static final java.lang.String FRAMEWORK_RESTORATION_BUNDLE_KEY
     private static final java.lang.String PLUGINS_RESTORATION_BUNDLE_KEY
-    private static final int FLUTTER_SPLASH_VIEW_FALLBACK_ID
 com.google.common.cache.LocalCache$Segment
 junit.textui.TestRunner
 com.google.android.exoplayer2.extractor.ts.TsExtractor$PmtReader:
@@ -15134,9 +15124,9 @@ androidx.activity.ImmLeaksCleaner:
     private static final int INIT_SUCCESS
     private static final int INIT_FAILED
 com.google.common.collect.SortedIterable
-androidx.core.app.NotificationCompat$Action$Extender
 androidx.appcompat.widget.ScrollingTabContainerView$TabView:
     private static final java.lang.String ACCESSIBILITY_CLASS_NAME
+androidx.core.app.NotificationCompat$Action$Extender
 com.google.common.collect.ForwardingSet
 com.google.common.collect.ImmutableMultimap$1
 com.google.common.collect.Multisets
@@ -15502,8 +15492,8 @@ androidx.core.view.ViewPropertyAnimatorCompat$2:
 androidx.fragment.app.FragmentTransitionCompat21$4:
     final synthetic androidx.fragment.app.FragmentTransitionCompat21 this$0
 com.google.android.exoplayer2.upstream.DefaultLoadErrorHandlingPolicy:
-    public synthetic long getBlacklistDurationMsFor(int,long,java.io.IOException,int)
     public synthetic long getRetryDelayMsFor(int,long,java.io.IOException,int)
+    public synthetic long getBlacklistDurationMsFor(int,long,java.io.IOException,int)
 com.google.android.exoplayer2.Timeline:
     private static com.google.android.exoplayer2.Timeline fromBundle(android.os.Bundle)
     private static com.google.common.collect.ImmutableList fromBundleListRetriever(com.google.android.exoplayer2.Bundleable$Creator,android.os.IBinder)
@@ -15657,8 +15647,6 @@ androidx.core.text.PrecomputedTextCompat$Params:
     final android.text.PrecomputedText$Params mWrapped
 okhttp3.internal.http2.Http2Stream:
     static final synthetic boolean $assertionsDisabled
-io.flutter.view.FlutterView$ViewportMetrics:
-    int physicalTouchSlop
 io.flutter.plugin.editing.TextInputPlugin$2:
     final synthetic io.flutter.plugin.editing.TextInputPlugin this$0
 okhttp3.internal.http.HttpHeaders:
@@ -15837,8 +15825,6 @@ com.google.android.exoplayer2.extractor.VorbisUtil$CommentHeader:
     public final int length
 com.google.android.exoplayer2.extractor.ogg.VorbisReader$VorbisSetup:
     public final com.google.android.exoplayer2.extractor.VorbisUtil$CommentHeader commentHeader
-io.flutter.embedding.engine.mutatorsstack.FlutterMutatorView$1:
-    final synthetic io.flutter.embedding.engine.mutatorsstack.FlutterMutatorView this$0
 androidx.core.provider.SelfDestructiveThread$3:
     final synthetic androidx.core.provider.SelfDestructiveThread this$0
 androidx.fragment.app.FragmentTransitionImpl$3:
@@ -15944,6 +15930,8 @@ com.google.common.math.LongMath:
 com.google.android.exoplayer2.upstream.HttpDataSource$HttpDataSourceException:
     public final int type
     public final com.google.android.exoplayer2.upstream.DataSpec dataSpec
+io.flutter.embedding.android.AndroidKeyProcessor:
+    private final io.flutter.plugin.editing.TextInputPlugin textInputPlugin
 com.google.android.exoplayer2.upstream.HttpDataSource$InvalidResponseCodeException:
     public final java.lang.String responseMessage
     public final byte[] responseBody
@@ -16046,6 +16034,7 @@ com.google.android.exoplayer2.Player$Events:
 io.flutter.embedding.engine.loader.FlutterApplicationInfo:
     public final java.lang.String vmSnapshotData
     public final java.lang.String isolateSnapshotData
+    public final boolean clearTextPermitted
 androidx.appcompat.resources.R$styleable:
     public static final int[] ColorStateListItem
     public static final int[] FontFamily
@@ -16121,41 +16110,52 @@ androidx.webkit.internal.WebViewRenderProcessClientAdapter$1:
     final synthetic androidx.webkit.internal.WebViewRenderProcessClientAdapter this$0
 androidx.appcompat.view.StandaloneActionMode:
     private boolean mFocusable
-com.google.android.exoplayer2.source.ads.-$$Lambda$AdPlaybackState$AdGroup$C29-JxihoVs9-kyxHjAM5HCSTvU:
-    public final com.google.android.exoplayer2.Bundleable fromBundle(android.os.Bundle)
-com.google.android.exoplayer2.audio.-$$Lambda$AudioAttributes$Hsm865OCX9SfmXIbNUEMkp8KZVk:
-    public final com.google.android.exoplayer2.Bundleable fromBundle(android.os.Bundle)
-com.google.android.exoplayer2.device.-$$Lambda$DeviceInfo$1doJg_XqbsvweuRfNOXY6F99cGs:
-    public final com.google.android.exoplayer2.Bundleable fromBundle(android.os.Bundle)
+com.google.android.exoplayer2.-$$Lambda$PercentageRating$gV1VuOc0syRaJALh6cdfjMjuj2Y
 com.google.android.exoplayer2.-$$Lambda$MediaItem$ClippingProperties$JiWNJy3bsEXc0IA4v9vQKXzXw4Q:
-    public final com.google.android.exoplayer2.Bundleable fromBundle(android.os.Bundle)
-com.google.android.exoplayer2.-$$Lambda$HeartRating$vPIJW6ssYQujpVr4cEbnIbolVQo
-com.google.android.exoplayer2.-$$Lambda$Timeline$4eWR_EQUMv6FYlKol3461jBhxV8:
-    public final com.google.android.exoplayer2.Bundleable fromBundle(android.os.Bundle)
-com.google.android.exoplayer2.-$$Lambda$PlaybackParameters$RwG_RMdOxdeY67Xihvdaau5AZEE:
-    public final com.google.android.exoplayer2.Bundleable fromBundle(android.os.Bundle)
-com.google.android.exoplayer2.-$$Lambda$MediaMetadata$n4bc9ZFXKwAHBWPswIbYNYyZRds:
     public final com.google.android.exoplayer2.Bundleable fromBundle(android.os.Bundle)
 com.google.android.exoplayer2.-$$Lambda$ExoPlaybackException$KFOeU7ntqCoPsM8H3_a4aK4-9bw:
     public final com.google.android.exoplayer2.Bundleable fromBundle(android.os.Bundle)
-com.google.android.exoplayer2.-$$Lambda$StarRating$PFFEnOFJiYnmZMUGPr8Imzm26I8
-com.google.android.exoplayer2.-$$Lambda$Player$PositionInfo$0Jai4hp00qCDar7e3Ewko-nPWjA:
+com.google.android.exoplayer2.-$$Lambda$Timeline$Window$DwPhLG2u8bNdNcFO2XKtY2D8gVM:
+    public final com.google.android.exoplayer2.Bundleable fromBundle(android.os.Bundle)
+com.google.android.exoplayer2.source.ads.-$$Lambda$AdPlaybackState$AdGroup$C29-JxihoVs9-kyxHjAM5HCSTvU:
     public final com.google.android.exoplayer2.Bundleable fromBundle(android.os.Bundle)
 com.google.android.exoplayer2.-$$Lambda$Timeline$Period$cb0Ll1d1tnVYwhQwGd9j2fWlJfI:
     public final com.google.android.exoplayer2.Bundleable fromBundle(android.os.Bundle)
-com.google.android.exoplayer2.source.ads.-$$Lambda$AdPlaybackState$v7MSQh9nkbSNgVVbdfE7aSUxQOQ:
-    public final com.google.android.exoplayer2.Bundleable fromBundle(android.os.Bundle)
-com.google.android.exoplayer2.-$$Lambda$MediaItem$jV0pUJ-BLiCLPyDyDvfHo6BdOSE:
+com.google.android.exoplayer2.-$$Lambda$Timeline$4eWR_EQUMv6FYlKol3461jBhxV8:
     public final com.google.android.exoplayer2.Bundleable fromBundle(android.os.Bundle)
 com.google.android.exoplayer2.video.-$$Lambda$VideoSize$1ExUEZYOGg5lLjSnAHRAg3BoMH4:
     public final com.google.android.exoplayer2.Bundleable fromBundle(android.os.Bundle)
-com.google.android.exoplayer2.-$$Lambda$Rating$S87uZHR0r4DpwOSwqteylD8fJ5w
 com.google.android.exoplayer2.-$$Lambda$MediaItem$LiveConfiguration$BU-8A0omnaqu9JdsySRxM9YKzHY:
     public final com.google.android.exoplayer2.Bundleable fromBundle(android.os.Bundle)
-com.google.android.exoplayer2.-$$Lambda$Timeline$Window$DwPhLG2u8bNdNcFO2XKtY2D8gVM:
+com.google.android.exoplayer2.-$$Lambda$HeartRating$vPIJW6ssYQujpVr4cEbnIbolVQo
+com.google.android.exoplayer2.source.ads.-$$Lambda$AdPlaybackState$v7MSQh9nkbSNgVVbdfE7aSUxQOQ:
     public final com.google.android.exoplayer2.Bundleable fromBundle(android.os.Bundle)
-com.google.android.exoplayer2.-$$Lambda$PercentageRating$gV1VuOc0syRaJALh6cdfjMjuj2Y
+com.google.android.exoplayer2.-$$Lambda$MediaMetadata$n4bc9ZFXKwAHBWPswIbYNYyZRds:
+    public final com.google.android.exoplayer2.Bundleable fromBundle(android.os.Bundle)
+com.google.android.exoplayer2.-$$Lambda$Player$PositionInfo$0Jai4hp00qCDar7e3Ewko-nPWjA:
+    public final com.google.android.exoplayer2.Bundleable fromBundle(android.os.Bundle)
+com.google.android.exoplayer2.-$$Lambda$Rating$S87uZHR0r4DpwOSwqteylD8fJ5w
+com.google.android.exoplayer2.device.-$$Lambda$DeviceInfo$1doJg_XqbsvweuRfNOXY6F99cGs:
+    public final com.google.android.exoplayer2.Bundleable fromBundle(android.os.Bundle)
+com.google.android.exoplayer2.audio.-$$Lambda$AudioAttributes$Hsm865OCX9SfmXIbNUEMkp8KZVk:
+    public final com.google.android.exoplayer2.Bundleable fromBundle(android.os.Bundle)
 com.google.android.exoplayer2.-$$Lambda$ThumbRating$AKC_JpI1ZPlm6EFzvYW84DJrS_k
+com.google.android.exoplayer2.-$$Lambda$StarRating$PFFEnOFJiYnmZMUGPr8Imzm26I8
+com.google.android.exoplayer2.-$$Lambda$PlaybackParameters$RwG_RMdOxdeY67Xihvdaau5AZEE:
+    public final com.google.android.exoplayer2.Bundleable fromBundle(android.os.Bundle)
+com.google.android.exoplayer2.-$$Lambda$MediaItem$jV0pUJ-BLiCLPyDyDvfHo6BdOSE:
+    public final com.google.android.exoplayer2.Bundleable fromBundle(android.os.Bundle)
+com.google.android.exoplayer2.ExoPlayer$AudioOffloadListener$-CC:
+    public static void $default$onExperimentalSleepingForOffloadChanged(com.google.android.exoplayer2.ExoPlayer$AudioOffloadListener,boolean)
+io.flutter.plugin.platform.PlatformView$-CC
+com.google.android.exoplayer2.drm.DrmSessionEventListener$-CC:
+    public static void $default$onDrmSessionAcquired(com.google.android.exoplayer2.drm.DrmSessionEventListener,int,com.google.android.exoplayer2.source.MediaSource$MediaPeriodId,int)
+    public static void $default$onDrmKeysLoaded(com.google.android.exoplayer2.drm.DrmSessionEventListener,int,com.google.android.exoplayer2.source.MediaSource$MediaPeriodId)
+    public static void $default$onDrmSessionManagerError(com.google.android.exoplayer2.drm.DrmSessionEventListener,int,com.google.android.exoplayer2.source.MediaSource$MediaPeriodId,java.lang.Exception)
+    public static void $default$onDrmKeysRestored(com.google.android.exoplayer2.drm.DrmSessionEventListener,int,com.google.android.exoplayer2.source.MediaSource$MediaPeriodId)
+    public static void $default$onDrmKeysRemoved(com.google.android.exoplayer2.drm.DrmSessionEventListener,int,com.google.android.exoplayer2.source.MediaSource$MediaPeriodId)
+    public static void $default$onDrmSessionReleased(com.google.android.exoplayer2.drm.DrmSessionEventListener,int,com.google.android.exoplayer2.source.MediaSource$MediaPeriodId)
+com.google.android.exoplayer2.analytics.AnalyticsListener$-CC
 com.google.android.exoplayer2.video.VideoRendererEventListener$-CC:
     public static void $default$onVideoEnabled(com.google.android.exoplayer2.video.VideoRendererEventListener,com.google.android.exoplayer2.decoder.DecoderCounters)
     public static void $default$onVideoDecoderInitialized(com.google.android.exoplayer2.video.VideoRendererEventListener,java.lang.String,long,long)
@@ -16167,22 +16167,8 @@ com.google.android.exoplayer2.video.VideoRendererEventListener$-CC:
     public static void $default$onVideoDecoderReleased(com.google.android.exoplayer2.video.VideoRendererEventListener,java.lang.String)
     public static void $default$onVideoDisabled(com.google.android.exoplayer2.video.VideoRendererEventListener,com.google.android.exoplayer2.decoder.DecoderCounters)
     public static void $default$onVideoCodecError(com.google.android.exoplayer2.video.VideoRendererEventListener,java.lang.Exception)
-io.flutter.plugin.platform.PlatformView$-CC
-com.google.android.exoplayer2.drm.DrmSession$-CC:
-    public static boolean $default$playClearSamplesWithoutKeys(com.google.android.exoplayer2.drm.DrmSession)
-android.os.IBinder$-DC
 com.google.android.exoplayer2.Player$EventListener$-CC:
     public static void $default$onPlaybackStateChanged(com.google.android.exoplayer2.Player$EventListener,int)
-com.google.android.exoplayer2.source.MediaSourceEventListener$-CC
-com.google.android.exoplayer2.drm.DrmSessionEventListener$-CC:
-    public static void $default$onDrmSessionAcquired(com.google.android.exoplayer2.drm.DrmSessionEventListener,int,com.google.android.exoplayer2.source.MediaSource$MediaPeriodId,int)
-    public static void $default$onDrmKeysLoaded(com.google.android.exoplayer2.drm.DrmSessionEventListener,int,com.google.android.exoplayer2.source.MediaSource$MediaPeriodId)
-    public static void $default$onDrmSessionManagerError(com.google.android.exoplayer2.drm.DrmSessionEventListener,int,com.google.android.exoplayer2.source.MediaSource$MediaPeriodId,java.lang.Exception)
-    public static void $default$onDrmKeysRestored(com.google.android.exoplayer2.drm.DrmSessionEventListener,int,com.google.android.exoplayer2.source.MediaSource$MediaPeriodId)
-    public static void $default$onDrmKeysRemoved(com.google.android.exoplayer2.drm.DrmSessionEventListener,int,com.google.android.exoplayer2.source.MediaSource$MediaPeriodId)
-    public static void $default$onDrmSessionReleased(com.google.android.exoplayer2.drm.DrmSessionEventListener,int,com.google.android.exoplayer2.source.MediaSource$MediaPeriodId)
-com.google.android.exoplayer2.analytics.AnalyticsListener$-CC
-com.google.android.exoplayer2.audio.AudioSink$Listener$-CC
 com.google.android.exoplayer2.audio.AudioRendererEventListener$-CC:
     public static void $default$onAudioEnabled(com.google.android.exoplayer2.audio.AudioRendererEventListener,com.google.android.exoplayer2.decoder.DecoderCounters)
     public static void $default$onAudioDecoderInitialized(com.google.android.exoplayer2.audio.AudioRendererEventListener,java.lang.String,long,long)
@@ -16199,5 +16185,8 @@ com.google.android.exoplayer2.upstream.LoadErrorHandlingPolicy$-CC:
     public static long $default$getBlacklistDurationMsFor(com.google.android.exoplayer2.upstream.LoadErrorHandlingPolicy,com.google.android.exoplayer2.upstream.LoadErrorHandlingPolicy$LoadErrorInfo)
     public static long $default$getRetryDelayMsFor(com.google.android.exoplayer2.upstream.LoadErrorHandlingPolicy,int,long,java.io.IOException,int)
     public static long $default$getRetryDelayMsFor(com.google.android.exoplayer2.upstream.LoadErrorHandlingPolicy,com.google.android.exoplayer2.upstream.LoadErrorHandlingPolicy$LoadErrorInfo)
-com.google.android.exoplayer2.ExoPlayer$AudioOffloadListener$-CC:
-    public static void $default$onExperimentalSleepingForOffloadChanged(com.google.android.exoplayer2.ExoPlayer$AudioOffloadListener,boolean)
+android.os.IBinder$-DC
+com.google.android.exoplayer2.drm.DrmSession$-CC:
+    public static boolean $default$playClearSamplesWithoutKeys(com.google.android.exoplayer2.drm.DrmSession)
+com.google.android.exoplayer2.audio.AudioSink$Listener$-CC
+com.google.android.exoplayer2.source.MediaSourceEventListener$-CC

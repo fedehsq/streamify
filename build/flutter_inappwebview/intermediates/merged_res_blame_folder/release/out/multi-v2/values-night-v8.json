@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/us3r/Desktop/streamify/build/flutter_inappwebview/intermediates/res/merged/release/values-night-v8/values-night-v8.xml",
+            "outputFile": "/Users/federicobernacca/Desktop/streamify/build/flutter_inappwebview/intermediates/res/merged/release/values-night-v8/values-night-v8.xml",
             "map": [
                 {
-                    "source": "/Users/us3r/.gradle/caches/transforms-2/files-2.1/5cc10fa79d98a6363adab29f7c5f3eea/appcompat-1.2.0/res/values-night-v8/values-night-v8.xml",
+                    "source": "/Users/federicobernacca/.gradle/caches/transforms-2/files-2.1/5cc10fa79d98a6363adab29f7c5f3eea/appcompat-1.2.0/res/values-night-v8/values-night-v8.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -16,10 +16,10 @@
             ]
         },
         {
-            "outputFile": "/Users/us3r/Desktop/streamify/build/flutter_inappwebview/intermediates/incremental/mergeReleaseResources/merged.dir/values-night-v8/values-night-v8.xml",
+            "outputFile": "/Users/federicobernacca/Desktop/streamify/build/flutter_inappwebview/intermediates/incremental/mergeReleaseResources/merged.dir/values-night-v8/values-night-v8.xml",
             "map": [
                 {
-                    "source": "/Users/us3r/.gradle/caches/transforms-2/files-2.1/5cc10fa79d98a6363adab29f7c5f3eea/appcompat-1.2.0/res/values-night-v8/values-night-v8.xml",
+                    "source": "/Users/federicobernacca/.gradle/caches/transforms-2/files-2.1/5cc10fa79d98a6363adab29f7c5f3eea/appcompat-1.2.0/res/values-night-v8/values-night-v8.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
