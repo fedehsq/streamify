@@ -75,7 +75,8 @@ class _EpSelectorState extends State<EpSelector> {
         var link = document.body!.text.split('["')[1];
         link = link
             .split('"]')
-            .first;
+            .first
+            .replaceAll("\\", "");
         // the method above is valid for only one link
         List<int> res = [];
         try {
