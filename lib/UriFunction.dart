@@ -359,9 +359,11 @@ mixin UriHelper {
   List<int>? _getVideo(dynamic html, Film film) {
     List<int> res = [];
     var fileVideoUri = html.body!.text.split('["')[1];
+
     fileVideoUri = fileVideoUri
         .split('"]')
-        .first;
+        .first
+        .replaceAll("\\", "");
     // the method above is valid for only one link
     try {
       res = base64.decode(base64.normalize(fileVideoUri));
